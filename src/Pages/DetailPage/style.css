@@ -1,0 +1,153 @@
+.product_detail_container {
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 4rem);
+    overflow: auto;
+}
+
+.product_detail_image_container {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    padding: 1rem;
+    position: sticky;
+    top: 0rem;
+    width: 40%;
+}
+
+.product_detail_info {
+    width: 60%;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.product_detail_info_title {
+    color: #878787;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product_detail_info_desc {
+    padding: 0;
+    line-height: 1.4;
+    font-size: inherit;
+    font-weight: inherit;
+    text-align: left;
+}
+
+.product_detail_info_discounted {
+    font-size: 28px;
+    vertical-align: sub;
+    font-weight: 500;
+    color: #212121;
+}
+
+.product_detail_info_price {
+    color: #878787;
+    font-size: 16px;
+    margin-left: 12px;
+    vertical-align: middle;
+    text-decoration: line-through;
+}
+
+.product_detail_info_percentage {
+    color: #26a541;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product_detail_info_rating {
+    padding: 2px 7px;
+    border-radius: 14px;
+    font-size: 16px;
+    background-color: #26a541;
+    vertical-align: baseline;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+
+    .fa-star {
+        font-size: 12px;
+    }
+}
+
+.product_detail_info_reviews {
+    color: #878787;
+    font-weight: 500;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.product_info_container {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+
+.product_detail_info_container {
+    display: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+
+.product_detail_info_container_sub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+.product_details_title {
+    width: 40%;
+    text-align: end;
+    font-weight: 600;
+}
+
+.product_details_subtitle {
+    width: 60%;
+    text-align: left;
+}
+
+.checked {
+    color: #dab322;
+}
+
+.review_component_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.avatar {
+    width: 3rem;
+    display: flex;
+    height: 3rem;
+    border: 1px solid #6d6a6a;
+    background: #d8d7d7;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar_wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
