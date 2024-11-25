@@ -43,6 +43,8 @@ function DetailPage() {
             setLoading(false);
         } catch (err) {
             console.error("Error fetching products:", err);
+            alert(err);
+            return;
         }
     };
 
